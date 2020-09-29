@@ -2,7 +2,7 @@ package juniorjava;
 import java.util.Scanner;
 public class brojPoena{
 
-	public static void main(String[]args){
+		public static void main(String[]args){
 		Scanner tastatura= new Scanner(System.in);
 		int ocena;
 		System.out.println("Unesi ocenu od 1 do 5:");
@@ -30,5 +30,5 @@ public class brojPoena{
 		{
 			System.out.print("Ne postoji ocena veca od 5 i manja od 1!");
 		}
-	}	
-}
+		}	
+		}
