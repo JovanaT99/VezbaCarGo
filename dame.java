@@ -5,7 +5,7 @@
 package juniorjava;
 import java.util.Scanner;
 public class kraljice {
-		Scanner unos=new Scanner(System.in);
+	    Scanner unos=new Scanner(System.in);
 
 	    int brojKraljica =unos.nextInt();
 	    
