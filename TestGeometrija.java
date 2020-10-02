@@ -1,9 +1,7 @@
 package juniorjava;
 
 public class TestGeometrija {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Tacka t1 = new Tacka(4, 5);
 		Tacka t2 = new Tacka();
 
@@ -14,8 +12,7 @@ public class TestGeometrija {
 		System.out.println("Tacka t1 posle pomeraja: " + t1.toString());
 		
 		Duz duz = new Duz(t1, t2);
-		System.out.println("Duz: " +duz.toString());
+		System.out.println("Duz: " + duz.toString());
 		System.out.print("Duzina duzi je: " + duz.duzina());
 	}
-
 }
