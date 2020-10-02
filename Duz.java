@@ -24,7 +24,7 @@ public Duz(final Tacka pocetak, final Tacka kraj) {
 	
  public String toString()
   {
-     	return "Pocetna tacka: " +pocetak.toString() + " ,krajnja tacka: "+kraj.toString();
+     		return "Pocetna tacka: " +pocetak.toString() + " ,krajnja tacka: "+kraj.toString();
   }
  
 }
