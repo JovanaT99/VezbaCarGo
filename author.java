@@ -2,14 +2,14 @@
  *Book (name, author, price, quantity)i
  *trecu test klasu.
  */
-package Author;
+package author;
 public class Author {
 
 	private String name;
 	private String email;
 	private String gender;
 	
-	public Author(String name,String email,String gender) {
+	public Author(String name, String email, char gender) {
 		this.name=name;
 		this.email=email;
 		this.gender=gender;	
@@ -21,7 +21,7 @@ public class Author {
 	public String getEmail() {
 		return this.email;
 	}
-	public String getGender() {
+	public char getGender() {
 		return this.gender;	
 	}
 	//set
