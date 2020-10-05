@@ -31,6 +31,6 @@ public class Book {
 			this.price = price;
 		}
 		public String toString() {
-		       return "(" + name.getName() + ", " + author.toString()+ "," +price.getPrice()+")";
+		       return  name.getName() + " , " + author.toString()+ "," +price.getPrice();
 		}
 }
