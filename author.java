@@ -35,6 +35,6 @@ public class Author {
 		this.gender=gender;	
 	}
 	public String toString() {
-		return "(" + name.getName() + ", " + email.getString()+ "," +gender.getGender()+")";	
+		return name.getName() + ", " + email.getString()+ "," +gender.getGender();	
 	}
 }
