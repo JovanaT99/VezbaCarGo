@@ -4,7 +4,7 @@ public class Book {
 
 		private String name;
 		private Author author;
-		private double price;
+		private int price;
 		
 		Book (String name, Author author, int price) {
 			this.name = name;
@@ -33,6 +33,6 @@ public class Book {
 			
 		}
 		public String toString() {
-			return return "(" + name.getName() + ", " + author.toString()+ "," +price.getPrice()+")";
+		       return "(" + name.getName() + ", " + author.toString()+ "," +price.getPrice()+")";
 		}
 }
