@@ -1,5 +1,4 @@
-package Author;
-
+package author;
 public class Book {
 
 		private String name;
@@ -30,7 +29,6 @@ public class Book {
 		}
 		public void setPrice(int price) {
 			this.price = price;
-			
 		}
 		public String toString() {
 		       return "(" + name.getName() + ", " + author.toString()+ "," +price.getPrice()+")";
