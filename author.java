@@ -16,30 +16,25 @@ public class Author {
 	}
 	//get
 	public String getName() {
-		
 		return this.name;	
 	}
 	public String getEmail() {
 		return this.email;
-		
 	}
 	public String getGender() {
 		return this.gender;	
 	}
 	//set
-	public void setName(String name)
-	{
+	public void setName(String name){
 		this.name=name;	
 	}
-	public void setEmail(String email)
-	{
+	public void setEmail(String email){
 		this.email=email;
 	}
-	public void setGender(String gender)
-	{
+	public void setGender(String gender){
 		this.gender=gender;	
 	}
 	public String toString() {
-		return "(" + name.toString() + ", " + email.toString()+ "," +gender.toString()+")";	
+		return "(" + name.getName() + ", " + email.getString()+ "," +gender.getGender()+")";	
 	}
 }
