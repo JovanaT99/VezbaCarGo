@@ -1,0 +1,4 @@
+!!com.baeldung.snakeyaml.Customer
+name: "John"
+email: "Doe"
+age: 20
