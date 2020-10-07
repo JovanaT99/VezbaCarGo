@@ -4,7 +4,6 @@ import java.io.InputStream;
 import java.util.HashMap;
 
 public class MainClass {
-
     public static void main(String[] args) throws IOException {
         Yaml yaml = new Yaml();
         try (InputStream in = MainClass.class
