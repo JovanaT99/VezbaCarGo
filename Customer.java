@@ -3,7 +3,6 @@ public class Customer {
     private String name;
     private String email;
     private int age;
-
     //get
     public String getName() {
         return this.name;
@@ -14,7 +13,6 @@ public class Customer {
     public int getAge() {
         return this.age;
     }
-
     //set
     public void setName(String name) {
         this.name = name;
