@@ -8,6 +8,7 @@ public class MainClass {
         Yaml yaml = new Yaml();
         try (InputStream in = MainClass.class
                 .getResourceAsStream("/Customer.yml")) {
+            //HashMap
             HashMap<String, String> map = new HashMap<String, String>();
             map = yaml.load(in);
              System.out.println(map);
