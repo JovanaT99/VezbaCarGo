@@ -1,6 +1,7 @@
 import java.util.HashMap;
 public class TestHashMap {
     public static void main(String[]args) {
+        //HashMap
         HashMap<String,Integer> map = new HashMap<>();
         
         map.put("java", 1);
