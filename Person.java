@@ -3,7 +3,7 @@ public class Person {
     private String name;
     private String phone;
     private String address;
-//add constructors
+    
     public String getName() {
         return name;
     }
@@ -22,7 +22,6 @@ public class Person {
     public void setAddress(String address) {
         this.address = address;
     }
-
 }
 
 
