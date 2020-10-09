@@ -11,11 +11,8 @@ public class Person {
     public void setCar(Car car) {
         this.car = car;
     }
-
     public Person() {
-
     }
-
     public Person(String name, String phone, String address, Car car ) {
 
       this.name = name;
@@ -42,4 +39,3 @@ public class Person {
         this.address = address;
     }
 }
-
