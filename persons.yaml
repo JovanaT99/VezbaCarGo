@@ -1,0 +1,12 @@
+persons:
+   - name: Jovana
+     phone: 0600000
+     address: Beograd
+     car:
+       type: limuzina
+
+   -  name: Tifani
+      phone: 06888888
+      address: Pariz
+      car:
+        type: Eko
