@@ -4,7 +4,6 @@ import java.io.InputStream;
 
 public class Primer2 {
     public static void main(String[] args) throws IOException {
-        //loadFromFile("/person.yml");
         loadFromFile();
     }
     private static void loadFromFile() throws IOException{
