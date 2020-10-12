@@ -58,4 +58,7 @@ public class Tea2 {
     public boolean getHerbs() {
         return herbs;
     }
+     public String toString() {
+        return "Name: " +name +"\n"+"Milk:"+ milk+"\n"+"Herbs:"+herbs+"\n"+"Sugar:"+sugar+"\n"+"TeaPowder:"+teaPowder;
+    }
 }
