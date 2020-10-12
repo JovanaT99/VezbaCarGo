@@ -1,6 +1,6 @@
    public class Zivotinja {
-    String rasa;
-    String ime;
+    protected String rasa;
+    protected String ime;
 
     public Zivotinja(){
     }
@@ -21,6 +21,3 @@
         return rasa;
     }
     }
-
-
-

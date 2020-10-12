@@ -1,10 +1,7 @@
- public class Pas extends Zivotinja {
-
-            private String ime;
-            private String rasa;
-
+   public class Pas extends Zivotinja {
     public Pas(String ime) {
-            this.ime = "Bernadinac";
+            this.ime = ime;
+            this.rasa="Bernandinac"
         }
         public Pas (String ime, String rasa) {
             super(ime,rasa);
