@@ -4,7 +4,8 @@
             private String rasa;
 
     public Pas(String ime) {
-            this.ime = "Bernadinac";
+            this.ime = ime;
+            this.rasa="Bernandinac"
         }
         public Pas (String ime, String rasa) {
             super(ime,rasa);
