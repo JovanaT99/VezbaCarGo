@@ -1,8 +1,4 @@
    public class Pas extends Zivotinja {
-
-            private String ime;
-            private String rasa;
-
     public Pas(String ime) {
             this.ime = ime;
             this.rasa="Bernandinac"
