@@ -1,12 +1,10 @@
 public class Tea {
-
     static final int DEFAULT_TEA_POWDER=1;
-
-
+    
     private String name;
     private int milk;
     private int teaPowder;
-
+    
     public Tea(){
     }
     public Tea(String name,int milk){
@@ -16,11 +14,7 @@ public class Tea {
     }
     public Tea(String name) {
         this.name = name;
-
     }
-    //public Tea(int milk){
-      //  this.milk=milk;
-   // }
     public void setName(String name) {
         this.name= name;
     }
