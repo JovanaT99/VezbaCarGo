@@ -38,5 +38,3 @@ public abstract class Animals {
 
     }
 }
-
-
