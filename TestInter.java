@@ -10,7 +10,5 @@ public class TestInter {
         Kretanje kretanje1 = new Zec("Zeki", "Beli");
         System.out.println(kretanje1.toString());
         System.out.println("Nacin kretanja zeca je:" + kretanje1.kreciSe());
-
-
     }
 }
