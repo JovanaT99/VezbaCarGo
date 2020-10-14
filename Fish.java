@@ -19,7 +19,7 @@ public class Fish extends Animals {
         System.out.println("Riba se ne oglasava");
     }
 
-    public String kretanje() {
-        return PLIVA;
+    public Test kretanje() {
+        return Animals.Test.PLIVA;
     }
 }

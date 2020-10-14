@@ -11,7 +11,7 @@ public class Horse extends Animals {
         System.out.println("Konj rze");
     }
 
-    public String kretanje() {
-        return HODA;
+    public Test kretanje() {
+        return Test.SKACE;
     }
 }

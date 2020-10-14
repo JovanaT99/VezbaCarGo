@@ -1,19 +1,20 @@
 public class TestZivotinje {
     public static void main(String[] args) {
-
-        Animals zivotinje = new Dog("Jack", "Dalmatinac");
-        zivotinje.oglasiSe();
-        System.out.println(zivotinje.kretanje());
+        //dog
+        Animals pas = new Dog("Jack", "Dalmatinac");
+        pas.oglasiSe();
+        System.out.println("Pas:" + pas.kretanje());
         System.out.println("----");
-
-        Animals fish = new Fish("jack");
+        //fish
+        Animals fish = new Fish("Jack");
         fish.oglasiSe();
-        System.out.println(fish.kretanje());
+        Animals.Test kretanje = Animals.Test.PLIVA;
+        System.out.println("Riba:" + fish.kretanje());
         System.out.println("----");
-
+        //horse
         Animals horse = new Horse("Crni");
         horse.oglasiSe();
-        System.out.println(horse.kretanje());
+        System.out.println("Konj:" + horse.kretanje());
         System.out.println("----");
     }
 }

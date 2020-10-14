@@ -1,8 +1,10 @@
 public abstract class Animals {
 
-    public static final String HODA = "Hoda";
-    public static final String SKACE = "Skace";
-    public static final String PLIVA = "Pliva";
+    enum Test {
+        HODA,
+        SKACE,
+        PLIVA
+    }
 
     protected String ime;
     protected String rasa;
@@ -32,9 +34,9 @@ public abstract class Animals {
     public void oglasiSe() {
     }
 
-    public abstract String kretanje();
-
-    {
+    public abstract Test kretanje();{
 
     }
 }
+
+
