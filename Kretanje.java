@@ -3,6 +3,5 @@ public interface Kretanje {
     String SKACE = "SKACE";
     String LETI = "LETI";
     String PLIVA = "PLIVA";
-
     String kreciSe();
 }
