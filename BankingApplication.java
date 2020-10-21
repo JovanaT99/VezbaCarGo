@@ -1,3 +1,5 @@
+//PrimerApp
+//SimpleApp
 import java.util.Scanner;
 import java.util.function.DoubleToIntFunction;
 
@@ -5,7 +7,6 @@ public class BankingApplication {
     public static void main(String[] args) {
         BankAccount obj1 = new BankAccount("XZY", "BA0001");
         obj1.showMenu();
-
     }
 }
 
@@ -19,7 +20,7 @@ class BankAccount {
         customerName = cname;
         customerId = cId;
     }
-
+    
     void deposit(int amount) {
         if (amount != 0) {
             balance = balance + amount;
@@ -33,18 +34,18 @@ class BankAccount {
             previousTransaction = -amount;
         }
     }
-
     void getPreviousTransaction() {
         if (previousTransaction > 0) {
             System.out.println("Deposited:" + previousTransaction);
-        } else if (previousTransaction < 0) {
+        }
+        else if (previousTransaction < 0) {
             System.out.println("Withdrawn:" + Math.abs(previousTransaction));
-        } else {
+        } 
+        else {
             System.out.println("No transation occured");
         }
-
     }
-
+    
     void showMenu() {
         char option = '\0';
         Scanner scanner = new Scanner(System.in);
@@ -102,15 +103,10 @@ class BankAccount {
                 default:
                     System.out.println("Invalid Option!!.Please enter again");
                     break;
-
             }
-
         }
+        
         while (option != 'E');
         System.out.println("ThankYou for using our services");
-
-
     }
 }
-
-
